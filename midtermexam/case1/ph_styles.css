@@ -64,9 +64,11 @@ body > p {
    
 /* Navigation Styles */
 
-
-
-
+nav > ul > li > a:link {
+   font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
 /* Section Styles */
 
 

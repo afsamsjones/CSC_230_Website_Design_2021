@@ -40,6 +40,9 @@ body {
    font-family: Palatino Linotype, Book Antiqua, Palamtino, serif;
 }
 
+header {
+   background-color: black;
+}
 /* Navigation Styles */
 
 

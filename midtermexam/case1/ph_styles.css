@@ -126,3 +126,8 @@ section#play4 h1 {
 }
 /* Description List Styles */
 
+dl > dt {
+   font-size: 1.3em;
+   font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.4);   
+}

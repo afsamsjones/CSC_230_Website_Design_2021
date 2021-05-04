@@ -27,21 +27,28 @@ div.infobox {
    position: absolute;
 }
 
+/* First Infographic */
+
 div#info1 {
    display: block;
    top: 20px;
-   left: 5%;
-}
-/* First Infographic */
-
-
+   left: 5%;}
 
 /* Second Infographic */
 
-
+div#info2 {
+   display:block;
+   top: 185px;
+   left: 42%;
+}
 
 /* Third Infographic */
 
+div#info3 {
+   display:block;
+   top: 135px;
+   left: 75%;
+}
 
 
 /* Fourth Infographic */

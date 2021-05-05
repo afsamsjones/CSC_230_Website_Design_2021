@@ -69,7 +69,9 @@ article#tour_summary h1 {
    letter-spacing: 0.2em;
 }
 
-
+article#tour_summary p {
+   font-size: 1.1em;
+}
 
 /* Aside Styles */
 

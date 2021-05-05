@@ -52,6 +52,16 @@ nav ul {
    font-size: 00.9em;
 }
 
+nav > ul > li > a:link, nav > ul > li > a:visited {
+   color: rgb(43, 59, 125);
+   text-decoration: none;
+}
+
+nav > ul > li > a:link, nav > ul > li > a:active {
+   color: rgb(43, 59, 125);
+   text-decoration: none;
+}
+
 
 /* Article Styles */
 

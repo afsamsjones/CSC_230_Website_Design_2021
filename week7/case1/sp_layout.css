@@ -124,13 +124,27 @@ margin-left: auto;
 margin-right: auto;
 }
 
-body > ul#comments > li > p {
+body > ul#comments > li {
    display: block;
    width: 50%;
+   float: left;
+   margin-bottom: 30px;
+}
+
+body > ul#comments > li > p {
+   float: left;
+   width: 70%;
+   }
+
+body > ul#comments > li > img {
+   display: block;
+   width: 20%;
    float: left;
    margin-left: 5%;
    margin-right: 5%;
 }
+
 /* Footer Styles */
-
-
+body > footer {
+      clear:both;
+     }

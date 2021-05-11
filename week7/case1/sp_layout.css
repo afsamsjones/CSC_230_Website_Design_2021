@@ -32,20 +32,45 @@ header, ul, nav, li, a {
 
 /* Row Styles */
 
-
-
-
-
+header.row::after {
+   clear: both;
+   content: "";
+   display: table;
+}
+   
+body > nav.horizontal > ul.row > li > a{
+   clear:both;
+   content: "";
+   float: left;
+   display:block;
+}
 /* Page Header Styles */
 
+body > header > img {
+   display: block;
+   width: 70%;
+   float: left;
+}
 
+header.row > li {
+   float: left;
+   padding-left: 2%;
+   padding-right: 2%;
+   width: 30%;
+}
 
-
-
+header > nav > ul > li > a {
+   display: block;
+   width: 100%;
+}
 
 /* Horizontal Navigation List Styles */
 
-
+nav.horizontal > ul.row > li{
+   display: block;
+   width: 12.5%;
+   float: left;
+}
 
 
 /* Topics Styles */

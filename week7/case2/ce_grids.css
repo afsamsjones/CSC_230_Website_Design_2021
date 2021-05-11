@@ -75,3 +75,19 @@ div.column80 {
 
 /* Grid Spacing Styles */
 
+div.row {
+   box-sizing: border-box;
+}
+
+div.column {
+   box-sizing: border-box;
+}
+
+div.cell {
+   box-sizing: border-box;
+}
+
+div.cell > a {
+   box-sizing: border-box;
+}
+

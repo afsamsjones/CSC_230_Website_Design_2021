@@ -8,46 +8,31 @@
 
 */
 
+/* Body Styles */
 
 body {
-	margin: 0 auto;
-	width: 100%;
+	margin: auto;
+	width: 95%;
 	max-width: 1020px;
 	min-width: 640px;
+	box-sizing: border-box;
 }
 
-body > header {
-	margin: 0;
-	padding: 0px;
-	width: 100%;
-}
+ h1, h3, img, ul, p {
+	 margin-left: 15px;
+	 margin-top: 15px;
+	}
 
-body > header > img {
-	margin: 0px;
-	padding: 0px;
-	width: 100%;
-}
-
+	h2 {
+		padding: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		margin-left: 15px;
+	}
 
 
 /* Navigation List Styles */
-nav {
-	display: table;
-	width: 100%;
-}
-
-nav > ul {
-	display: table-row;
-}
-
-nav > ul > li {
-	display: table-cell;
-	text-align: center;
-}
-
-nav > ul > li > a {
-	display: block;
-}
 
 
 /* Section Styles */
@@ -58,8 +43,4 @@ section {
 
 /* Description List Styles */
 
-dl {
-	float: right;
-	width: 40%;
-	margin: 0 0 0 4%;
-}
+

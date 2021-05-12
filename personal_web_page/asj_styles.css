@@ -31,13 +31,17 @@
 /* Structural Styles */
 
 html {
-   background-color:cadetblue; 
+   background-color:rosybrown; 
 }
 
+body {
+   background-color: cadetblue;
+}
 h2 {font-family: 'Pinyon', cursive;
    font-size: 3.0em;
-   padding: 1px 1px 1px 1px;
 }
+
+
 
 
 /* Navigation Styles */

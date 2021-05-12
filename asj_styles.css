@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+@font-face {
+   font-family: 'Italianno';
+   src: url('Italianno-Regular.ttf') format('truetype');
+   }
+
+@font-face {
+   font-family: 'Pinyon';
+   src: url('PinyonScript-Regular.ttf') format('truetype');
+   }
+
+@font-face {
+   font-family: 'Gilda';
+   src: url('GildaDisplay-Regular.ttf') format('truetype');
+   }
+
+/*
+   Allesandra's Web Page
+   
+   
+   Allesandra's Typographic Style Sheet
+   Author: Allesandra Sams-Jones
+   Date:   4/30/2021
+   
+   Filename: allesandra_styles.css
+
+*/
+
+
+/* Structural Styles */
+
+html {
+   background-color:rosybrown; 
+}
+
+body {
+   background-color: cadetblue;
+}
+h2 {font-family: 'Pinyon', cursive;
+   font-size: 3.0em;
+}
+
+
+
+
+/* Navigation Styles */
+
+
+
+
+/* Section Styles */
+
+
+
+
+/* Description List Styles */
+

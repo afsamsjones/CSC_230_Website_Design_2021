@@ -21,14 +21,14 @@ figure {
    width:  80%;
 }
 
-figure {
+figure img {
    display: block;
    width: 100%;
 }
 
 figure figcaption {
    background-color: white;
-   font-family: 'Palitino Linotype',Palitino, 'Times New Roman', serif;
+   font-family: 'Palitino Linotype', Palitino, 'Times New Roman', serif;
    font-style: italic;
    padding: 10px 0;
    text-align: center;
@@ -36,7 +36,9 @@ figure figcaption {
 
 /* HTML Styles */
 
-
+html {
+   background-image: url(tb_back1.png);
+}
 
 
 /* Article Styles */

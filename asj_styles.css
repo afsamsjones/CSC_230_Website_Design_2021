@@ -31,17 +31,20 @@
 /* Structural Styles */
 
 html {
-   background-color:rosybrown; 
+   background-image: url(./sunset.jpg); 
 }
 
 body {
-   background-color: cadetblue;
+   background-color: rgb(156, 199, 220);
+   opacity: 75%;
 }
 h2 {font-family: 'Pinyon', cursive;
    font-size: 3.0em;
 }
 
-
+body > img {
+   border: 8px double rgb(51, 51, 51);
+}
 
 
 /* Navigation Styles */

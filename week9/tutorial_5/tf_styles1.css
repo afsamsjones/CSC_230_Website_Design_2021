@@ -145,21 +145,32 @@ body > footer {
 
 /* Pulldown Menu Styles */
 
+ul.submenu {
+   display:none;
+}
 
-
-
+a.submenuTitle:hover+ul.submenu, ul.submenu:hover {display:block
+}
 /* New Styles Added Below */
 
 /* =============================================
-   Mobile Stuyles: 0px to 480px
+   Mobile Styles: 0px to 480px
    =============================================
 */ 
 
 @media only screen and (max-width: 480px) {
 }
 
+nav.horizontal a {
+   font: size 1.5em;
+   line-height: 2.2em;
+}
+
+aside {
+   display:none
+}
 /* =============================================
-   Tablet Stuyles: 481px and greater
+   Tablet Styles: 481px and greater
    =============================================
 */ 
 
@@ -169,7 +180,7 @@ body > footer {
 
 
 /* =============================================
-   Desktop Stuyles: 769px and greater
+   Desktop Styles: 769px and greater
    =============================================
 */ 
 

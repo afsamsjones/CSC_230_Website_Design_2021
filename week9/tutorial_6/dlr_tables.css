@@ -6,8 +6,8 @@
    Tutorial Case
 
    Tables Style Sheet
-   Author: 
-   Date:   
+   Author: Allesandra Sams-Jones
+   Date:   5/25/2021
 
    Filename:         dlr_tables.css
 
@@ -15,11 +15,20 @@
 
 /* Table Styles */
 
+table.schedule {
+   background: white;
+   border: 10px outset rgb(153, 0, 153);
+   border-collapse: collapse;
+   font-size: 0.75rem;
+   width: 100%;
+}
 
 
 /* Table Cell Styles */
 
-
+table.shedule th, table.schedule td {
+   border: 1px solid gray;
+}
 
 /* Table Caption Styles */
 

@@ -23,16 +23,35 @@ table {
 th,td {
 border: solid gray 3px;
 line-height: 1.4em;
-font-weight: normal;
+padding: 8px;
+}
+
+td {
+   color: white;
+   font-size: 0.9em;
+   vertical-align: text-top;
 }
 /* Column Styles */
 
+col#firstCol {
+   width: 24%;
+}
 
+col.dataCols {
+   width: 19%;
+}
 
 /* Table Header Styles */
 
+th {
+   background: black;
+   color:   rgb(130,210,255);
+   font-weight: normal;
+}
 
-
+th {
+   height: 60px;
+}
 
 
 

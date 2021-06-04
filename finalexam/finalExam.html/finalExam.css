@@ -19,6 +19,9 @@ html {
    background-image: url(./sunset.jpg); 
 }
 */
+
+
+
 body {
    font-family: Verdana, Tacoma, Helvetica;
    color: black;
@@ -28,7 +31,12 @@ body {
    
 }
 
-header > h1 {
+.rightpic img { 
+   float: right; 
+}
+
+
+.rightpic h1 {
    font-size: 36pt;
    margin-top: 35px;
    margin-bottom: 0px;
@@ -38,28 +46,31 @@ header > h1 {
    padding-bottom: 0px;
    padding-left: 15px;
    padding-right: 0px;
-   background-color: cornsilk;
-}
+   background-color: cornflowerblue;
+   }
 
-header > h3 {
+.rightpic h3 {
    font-size: 24pt;
    margin: 0px;
    padding-top: 0px;
    padding-bottom: 15px;
    padding-left: 15px;
    padding-right: 0px;
-}
+   background-color: cornflowerblue;
+   }
 
-body > h1{
+
+body > section > h1{
    font-family: arial;
    font-size: 22pt;
    text-align: left;
-   letter-spacing: 2em;
+   letter-spacing: 2px;
    margin: 0px;
    padding: 15px 0px 0px 15px; 
+   background-color: darkorange;
 }
 
-body > h3 {
+body > section > h3 {
    font-size: 16pt;
    color: lawngreen;
 }
@@ -80,17 +91,27 @@ table {
 
 /* Navigation Styles */
 
-nav {
-   background-color: cyan;
+nav > ul {
+   background-color: cornflowerblue;
    color: indianred;
    text-align: center;
+   width: 25%;
+   margin: 0px;
+   padding: 0px;
+   height: 70%;
+   list-style-type: none;
 }
 
 
 /* Section Styles */
 
-
-
-
+section {
+   background-color: honeydew;
+   width: 75%;
+   padding: 15px;
+   float: right;
+   
+   
+}
 /* Description List Styles */
 

@@ -24,8 +24,10 @@ body {
 
 }
 
+
 .rightpic img {
     float: right;
+  
 }
 
 
@@ -34,6 +36,7 @@ body {
     margin: 35px 0 0;
     padding: 15px 0 0 15px;
     background-color: #2f5d62;
+    
 }
 
 .rightpic h3 {
@@ -41,8 +44,8 @@ body {
     margin: 0;
     padding: 0 0 15px 15px;
     background-color: #2f5d62;
+    
 }
-
 
 h1#aboutme {
     font-family: arial;
@@ -124,6 +127,7 @@ th {
 /* Navigation Styles */
 
 nav {
+    text-align: center;
     width: 25%;
     height: 2481px;
     display: inline-block;
@@ -131,18 +135,22 @@ nav {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    text-align: center;
+   
+        
+   
 }
 
 nav > ul {
+    
     padding: 0px;
-    position: fixed;
+    margin: 0px;
     list-style-type: none;
     text-align: center;
-     
+  
 }
 
-nav > ul >li a:link,
+
+nav > ul >li > a:link,
 nav > ul > li > a:visited,
 nav > ul > li >a:active {
     text-decoration: none;
@@ -163,6 +171,7 @@ body > section {
     padding: 15px;
     float: right;
     box-sizing: border-box;
+    
 
 }
 

@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+/*
+   Allesandra's Web Page
+   
+   
+   Allesandra's Typographic Style Sheet
+   Author: Allesandra Sams-Jones
+   Date:   6/3/2021
+   
+   Filename: asj_styles.css
+
+*/
+
+/* Structural Styles */
+
+body {
+    font-family: Verdana, Tacoma, Helvetica;
+    color: black;
+    font-size: 16pt;
+    background-color: #2f5d62;
+    width: 85%;
+    margin: auto;
+
+}
+
+.rightpic img {
+    float: right;
+}
+
+
+.rightpic h1 {
+    font-size: 36pt;
+    margin: 35px 0 0;
+    padding: 15px 0 0 15px;
+    background-color: #2f5d62;
+}
+
+.rightpic h3 {
+    font-size: 24pt;
+    margin: 0;
+    padding: 0 0 15px 15px;
+    background-color: #2f5d62;
+}
+
+
+h1#aboutme {
+    font-family: arial;
+    font-size: 22pt;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 15px 0 0 15px;
+    background-color: #659285;
+}
+
+
+h1#assignments {
+    font-family: arial;
+    font-size: 22pt;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 15px 0 0 15px;
+    background-color: #659285;
+}
+
+h1#mylinks {
+    font-family: arial;
+    font-size: 22pt;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 15px 0 0 15px;
+    background-color: #659285;
+}
+body > section > h3 {
+    font-size: 16pt;
+    color: lawngreen;
+}
+p {
+    margin: 15px;
+    padding: 15px;
+}
+
+table {
+    border: none;
+    padding: 2px 5px;
+    width: 90%;
+    margin-left: 30px;
+
+}
+
+td {
+    vertical-align: top;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 46%;
+}
+
+td#midterm {
+    vertical-align: top;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 46%;
+
+}
+
+td#final {
+    vertical-align: top;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 46%;
+
+}
+
+td:nth-of-type(2) {
+    width: 8%;
+}
+
+th {
+    background-color: #b9d3cc;
+}
+/* Navigation Styles */
+
+nav {
+    width: 25%;
+    height: 2481px;
+    display: inline-block;
+    background-color: #A7C4BC;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+nav > ul {
+    padding: 0px;
+    position: fixed;
+    list-style-type: none;
+    text-align: center;
+     
+}
+
+nav > ul >li a:link,
+nav > ul > li > a:visited,
+nav > ul > li >a:active {
+    text-decoration: none;
+    color: rgb(48, 87, 65);
+}
+
+nav > ul > li > a:hover {
+    color: white;
+
+}
+
+
+/* Section Styles */
+
+body > section {
+    background-color: #DFEEEA;
+    width: 75%;
+    padding: 15px;
+    float: right;
+    box-sizing: border-box;
+
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    color: white;
+}
+/* Description List Styles */

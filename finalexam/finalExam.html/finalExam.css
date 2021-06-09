@@ -6,7 +6,7 @@
    
    Allesandra's Typographic Style Sheet
    Author: Allesandra Sams-Jones
-   Date:   6/6/2021
+   Date:   6/7/2021
    
    Filename: asj_styles.css
 
@@ -24,6 +24,9 @@ body {
 
 }
 
+.rightpic {
+    background-color: #A7C4BC;
+}
 
 .rightpic img {
     float: right;
@@ -33,17 +36,17 @@ body {
 
 .rightpic h1 {
     font-size: 36pt;
-    margin: 35px 0 0;
-    padding: 15px 0 0 15px;
-    background-color: #2f5d62;
+    margin: 35px 0px 0px 0px;
+    padding: 15px 0px 0px 15px;
+    
     
 }
 
 .rightpic h3 {
     font-size: 24pt;
-    margin: 0;
-    padding: 0 0 15px 15px;
-    background-color: #2f5d62;
+    margin: 0pt;
+    padding: 0px 0px 15px 15px;
+    
     
 }
 
@@ -53,34 +56,34 @@ h1#aboutme {
     text-align: left;
     letter-spacing: 2px;
     margin: 0;
-    padding: 15px 0 0 15px;
+    padding: 15px 0px 0px 15px;
     background-color: #659285;
+    color: rgb(19, 36, 1);
 }
 
 
-h1#assignments {
+h3#assignments {
     font-family: arial;
-    font-size: 22pt;
-    text-align: left;
-    letter-spacing: 2px;
-    margin: 0;
-    padding: 15px 0 0 15px;
-    background-color: #659285;
-}
-
-h1#mylinks {
-    font-family: arial;
-    font-size: 22pt;
-    text-align: left;
-    letter-spacing: 2px;
-    margin: 0;
-    padding: 15px 0 0 15px;
-    background-color: #659285;
-}
-body > section > h3 {
     font-size: 16pt;
-    color: lawngreen;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 15px 0px 0px 15px;
+    background-color: #659285;
+    color: rgb(30, 51, 8);
 }
+
+h3#mylinks {
+    font-family: arial;
+    font-size: 16pt;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 15px 0 0 15px;
+    background-color: #659285;
+    color: rgb(30, 51, 8);
+}
+
 p {
     margin: 15px;
     padding: 15px;
